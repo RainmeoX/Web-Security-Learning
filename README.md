@@ -1,4 +1,3 @@
-
 # Web-Security-Learning 🔐
 
 网络安全学习项目，包含内存取证分析工具、课程笔记和安全实验。
@@ -33,7 +32,8 @@
 ```
 Web-Security-Learning/
 ├── memory_analyzer.py    # 内存取证分析工具
-├── 第一课level-1-fundamentals/  # 基础课程
+├── Level-1-Fundamentals/  # 基础课程
+├── Level-2-Advanced/     # 高级课程
 ├── memory_analysis_*/     # 分析输出目录
 ├── reports/              # 报告目录
 ├── LICENSE               # 许可证
